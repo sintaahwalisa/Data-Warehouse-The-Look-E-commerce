@@ -1,5 +1,3 @@
-# Data-Warehouse-The-Look-E-commerce
-
 **A. Dataset Access**
 
 The dataset is sourced from Google BigQuery's public dataset: bigquery-public-data.thelook_ecommerce
@@ -59,11 +57,8 @@ Structure:
 
 - dim_products:
 |-- product_id (PK)
-
  |-- product_name
- 
  |-- category
- 
  |-- brand
  |-- department
  |-- product_price
@@ -112,6 +107,8 @@ Structure:
  |-- month_name
  |-- is_weekend
 
+
+And then we have:
 
 **C. Extract - BigQuery to PySpark DataFrames** 
 
