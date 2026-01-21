@@ -59,8 +59,11 @@ Structure:
 
 - dim_products:
 |-- product_id (PK)
+
  |-- product_name
+ 
  |-- category
+ 
  |-- brand
  |-- department
  |-- product_price
